@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F79034917BBC728005126F3 /* trex.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4F79034817BBC728005126F3 /* trex.ppng */; };
+		4F79034B17BBCC42005126F3 /* test.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4F79034A17BBCC42005126F3 /* test.ppng */; };
+		4F79034D17BBDE61005126F3 /* Outline.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4F79034C17BBDE61005126F3 /* Outline.fsh */; };
+		4F79034F17BBE370005126F3 /* test2.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4F79034E17BBE370005126F3 /* test2.ppng */; };
+		4F79035117BBE49A005126F3 /* Reveal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4F79035017BBE49A005126F3 /* Reveal.fsh */; };
+		4F79035417BD069E005126F3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F79035217BD04B1005126F3 /* ImageIO.framework */; };
+		4F79035617C0D678005126F3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F79035517C0D678005126F3 /* CoreImage.framework */; };
+		4F79035917C20FD4005126F3 /* TexturePMA.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4F79035817C20FD4005126F3 /* TexturePMA.fsh */; };
+		4F79035B17C23596005126F3 /* DMBrushTextureConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F79035A17C23595005126F3 /* DMBrushTextureConsts.m */; };
+		4F79035E17C23EC2005126F3 /* DMCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F79035D17C23EC2005126F3 /* DMCanvas.m */; };
 		4FDF27CD17B117B50062BFDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF27CC17B117B50062BFDF /* UIKit.framework */; };
 		4FDF27CF17B117B50062BFDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF27CE17B117B50062BFDF /* Foundation.framework */; };
 		4FDF27D117B117B50062BFDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF27D017B117B50062BFDF /* CoreGraphics.framework */; };
@@ -16,11 +26,111 @@
 		4FDF27DF17B117B50062BFDF /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF27DE17B117B50062BFDF /* Default.png */; };
 		4FDF27E117B117B50062BFDF /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF27E017B117B50062BFDF /* Default@2x.png */; };
 		4FDF27E317B117B50062BFDF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF27E217B117B50062BFDF /* Default-568h@2x.png */; };
-		4FDF27E617B117B50062BFDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF27E517B117B50062BFDF /* ViewController.m */; };
-		4FDF27E917B117B50062BFDF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF27E717B117B50062BFDF /* ViewController.xib */; };
+		4FDF27F017B117F20062BFDF /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF27EF17B117F20062BFDF /* OpenGLES.framework */; };
+		4FDF27F217B117F80062BFDF /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF27F117B117F80062BFDF /* GLKit.framework */; };
+		4FDF285517B118400062BFDF /* DMBlend.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF27F717B118400062BFDF /* DMBlend.m */; };
+		4FDF285617B118400062BFDF /* DMContextLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF27F917B118400062BFDF /* DMContextLock.m */; };
+		4FDF285717B118400062BFDF /* DMFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF27FC17B118400062BFDF /* DMFactory.m */; };
+		4FDF285817B118400062BFDF /* DMTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF27FE17B118400062BFDF /* DMTexture.m */; };
+		4FDF285917B118400062BFDF /* DMView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF280017B118400062BFDF /* DMView.m */; };
+		4FDF285A17B118400062BFDF /* FileInZipInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF280417B118400062BFDF /* FileInZipInfo.m */; };
+		4FDF285B17B118400062BFDF /* ZipException.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF280617B118400062BFDF /* ZipException.m */; };
+		4FDF285C17B118400062BFDF /* ZipFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF280817B118400062BFDF /* ZipFile.m */; };
+		4FDF285D17B118400062BFDF /* ZipReadStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF280A17B118400062BFDF /* ZipReadStream.m */; };
+		4FDF285E17B118400062BFDF /* ZipWriteStream.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF280C17B118400062BFDF /* ZipWriteStream.m */; };
+		4FDF285F17B118400062BFDF /* stb_image.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF280E17B118400062BFDF /* stb_image.mm */; };
+		4FDF286017B118400062BFDF /* DMBlend+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF281117B118400062BFDF /* DMBlend+Extra.m */; };
+		4FDF286117B118400062BFDF /* DMTexture+Extra.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF281317B118400062BFDF /* DMTexture+Extra.m */; };
+		4FDF286217B118400062BFDF /* DMGraphics.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF281617B118400062BFDF /* DMGraphics.m */; };
+		4FDF286317B118400062BFDF /* DMBrush.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF281917B118400062BFDF /* DMBrush.m */; };
+		4FDF286417B118400062BFDF /* DMBrushSpray.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF281B17B118400062BFDF /* DMBrushSpray.m */; };
+		4FDF286517B118400062BFDF /* DMBrushTouche.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF281D17B118400062BFDF /* DMBrushTouche.m */; };
+		4FDF286617B118400062BFDF /* DMProcessor.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF281F17B118400062BFDF /* DMProcessor.m */; };
+		4FDF286717B118400062BFDF /* Add.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282217B118400062BFDF /* Add.fsh */; };
+		4FDF286817B118400062BFDF /* AddDisk.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282317B118400062BFDF /* AddDisk.fsh */; };
+		4FDF286917B118400062BFDF /* Color.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282417B118400062BFDF /* Color.fsh */; };
+		4FDF286A17B118400062BFDF /* ColorBalance.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282517B118400062BFDF /* ColorBalance.fsh */; };
+		4FDF286B17B118400062BFDF /* ColorBurn.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282617B118400062BFDF /* ColorBurn.fsh */; };
+		4FDF286C17B118400062BFDF /* ColorDodge.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282717B118400062BFDF /* ColorDodge.fsh */; };
+		4FDF286D17B118400062BFDF /* Copy.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282817B118400062BFDF /* Copy.fsh */; };
+		4FDF286E17B118400062BFDF /* Darken.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282917B118400062BFDF /* Darken.fsh */; };
+		4FDF286F17B118400062BFDF /* Difference.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282A17B118400062BFDF /* Difference.fsh */; };
+		4FDF287017B118400062BFDF /* Dissolve.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282B17B118400062BFDF /* Dissolve.fsh */; };
+		4FDF287117B118400062BFDF /* Divide.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282C17B118400062BFDF /* Divide.fsh */; };
+		4FDF287217B118400062BFDF /* Exclusion.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282D17B118400062BFDF /* Exclusion.fsh */; };
+		4FDF287317B118400062BFDF /* Hardlight.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282E17B118400062BFDF /* Hardlight.fsh */; };
+		4FDF287417B118400062BFDF /* Hue.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF282F17B118400062BFDF /* Hue.fsh */; };
+		4FDF287517B118400062BFDF /* Lighten.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283017B118400062BFDF /* Lighten.fsh */; };
+		4FDF287617B118400062BFDF /* Multiply.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283117B118400062BFDF /* Multiply.fsh */; };
+		4FDF287717B118400062BFDF /* Normal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283217B118400062BFDF /* Normal.fsh */; };
+		4FDF287817B118400062BFDF /* NormalColor.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283317B118400062BFDF /* NormalColor.fsh */; };
+		4FDF287917B118400062BFDF /* Overlay.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283417B118400062BFDF /* Overlay.fsh */; };
+		4FDF287A17B118400062BFDF /* PMANormal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283517B118400062BFDF /* PMANormal.fsh */; };
+		4FDF287B17B118400062BFDF /* Saturation.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283617B118400062BFDF /* Saturation.fsh */; };
+		4FDF287C17B118400062BFDF /* Screen.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283717B118400062BFDF /* Screen.fsh */; };
+		4FDF287D17B118400062BFDF /* Set.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283817B118400062BFDF /* Set.fsh */; };
+		4FDF287E17B118400062BFDF /* Sharpen.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283917B118400062BFDF /* Sharpen.fsh */; };
+		4FDF287F17B118400062BFDF /* Softlight.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283A17B118400062BFDF /* Softlight.fsh */; };
+		4FDF288017B118400062BFDF /* Subtract.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283B17B118400062BFDF /* Subtract.fsh */; };
+		4FDF288117B118400062BFDF /* Blur.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283C17B118400062BFDF /* Blur.fsh */; };
+		4FDF288217B118400062BFDF /* BlurHorizontal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283D17B118400062BFDF /* BlurHorizontal.fsh */; };
+		4FDF288317B118400062BFDF /* BlurVertical.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283E17B118400062BFDF /* BlurVertical.fsh */; };
+		4FDF288417B118400062BFDF /* ChromaKey.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF283F17B118400062BFDF /* ChromaKey.fsh */; };
+		4FDF288517B118400062BFDF /* DepthWrite.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284017B118400062BFDF /* DepthWrite.fsh */; };
+		4FDF288617B118400062BFDF /* FastBlurHorizontal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284117B118400062BFDF /* FastBlurHorizontal.fsh */; };
+		4FDF288717B118400062BFDF /* FastBlurVertical.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284217B118400062BFDF /* FastBlurVertical.fsh */; };
+		4FDF288817B118400062BFDF /* Ink.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284317B118400062BFDF /* Ink.fsh */; };
+		4FDF288917B118400062BFDF /* Marker.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284417B118400062BFDF /* Marker.fsh */; };
+		4FDF288A17B118400062BFDF /* MarkerDisc.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284517B118400062BFDF /* MarkerDisc.fsh */; };
+		4FDF288B17B118400062BFDF /* Mask.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284617B118400062BFDF /* Mask.fsh */; };
+		4FDF288C17B118400062BFDF /* OilPaint.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284717B118400062BFDF /* OilPaint.fsh */; };
+		4FDF288D17B118400062BFDF /* QuadAA.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284817B118400062BFDF /* QuadAA.fsh */; };
+		4FDF288E17B118400062BFDF /* QuadCamera.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284917B118400062BFDF /* QuadCamera.vsh */; };
+		4FDF288F17B118400062BFDF /* QuadShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284A17B118400062BFDF /* QuadShader.vsh */; };
+		4FDF289017B118400062BFDF /* RibbonShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284B17B118400062BFDF /* RibbonShader.vsh */; };
+		4FDF289117B118400062BFDF /* SourceQuadShader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284C17B118400062BFDF /* SourceQuadShader.vsh */; };
+		4FDF289217B118400062BFDF /* Spray.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284D17B118400062BFDF /* Spray.fsh */; };
+		4FDF289317B118400062BFDF /* SwitchRGB.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF284E17B118400062BFDF /* SwitchRGB.fsh */; };
+		4FDF289417B118400062BFDF /* Semaphore.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF285117B118400062BFDF /* Semaphore.m */; };
+		4FDF289517B118400062BFDF /* ZipFileHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF285417B118400062BFDF /* ZipFileHelper.m */; };
+		4FDF289717B118640062BFDF /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF289617B118640062BFDF /* libz.dylib */; };
+		4FDF289917B118890062BFDF /* Dropico.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF289817B118890062BFDF /* Dropico.framework */; };
+		4FDF289B17B1192A0062BFDF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF289A17B1192A0062BFDF /* QuartzCore.framework */; };
+		4FDF289D17B1193B0062BFDF /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF289C17B1193B0062BFDF /* Security.framework */; };
+		4FDF289F17B119560062BFDF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF289E17B119560062BFDF /* SystemConfiguration.framework */; };
+		4FDF28A117B1196E0062BFDF /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF28A017B1196E0062BFDF /* AssetsLibrary.framework */; };
+		4FDF28A317B119C60062BFDF /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF28A217B119C60062BFDF /* CoreVideo.framework */; };
+		4FDF28A517B119E90062BFDF /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF28A417B119E90062BFDF /* CoreLocation.framework */; };
+		4FDF28A717B11A030062BFDF /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF28A617B11A030062BFDF /* CFNetwork.framework */; };
+		4FDF28AA17B11C530062BFDF /* DMBrushView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF28A917B11B340062BFDF /* DMBrushView.m */; };
+		4FDF28D417B24FD00062BFDF /* Gradient.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF28D317B24FD00062BFDF /* Gradient.fsh */; };
+		4FDF28D717B253310062BFDF /* DMBrushGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF28D617B253300062BFDF /* DMBrushGradient.m */; };
+		4FDF28DA17B2797F0062BFDF /* DMBrushTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF28D917B2797E0062BFDF /* DMBrushTexture.m */; };
+		4FDF28DC17B281530062BFDF /* Texture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF28DB17B281530062BFDF /* Texture.fsh */; };
+		4FDF28E017B288620062BFDF /* shalom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF28DF17B288620062BFDF /* shalom.jpg */; };
+		4FDF28E217B28D320062BFDF /* shalom.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF28E117B28D320062BFDF /* shalom.ppng */; };
+		4FDF28E417B28F3A0062BFDF /* Hair.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF28E317B28F3A0062BFDF /* Hair.ppng */; };
+		4FDF28E617B292950062BFDF /* Skin.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF28E517B292950062BFDF /* Skin.ppng */; };
+		4FDF28E817B7A4070062BFDF /* test4ofer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF28E717B7A4070062BFDF /* test4ofer.jpg */; };
+		4FDF28EC17B910540062BFDF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF28EB17B910490062BFDF /* ViewController.xib */; };
+		4FDF28EF17B91C6B0062BFDF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDF28EE17B91C6A0062BFDF /* ViewController.m */; };
+		4FDF28F117BA4E8F0062BFDF /* Seamless.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4FDF28F017BA4E8F0062BFDF /* Seamless.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F79034817BBC728005126F3 /* trex.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex.ppng; sourceTree = "<group>"; };
+		4F79034A17BBCC42005126F3 /* test.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.ppng; sourceTree = "<group>"; };
+		4F79034C17BBDE61005126F3 /* Outline.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Outline.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4F79034E17BBE370005126F3 /* test2.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = test2.ppng; sourceTree = "<group>"; };
+		4F79035017BBE49A005126F3 /* Reveal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Reveal.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4F79035217BD04B1005126F3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		4F79035517C0D678005126F3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		4F79035717C0F68B005126F3 /* DMBrushTextureConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMBrushTextureConsts.h; sourceTree = "<group>"; };
+		4F79035817C20FD4005126F3 /* TexturePMA.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = TexturePMA.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4F79035A17C23595005126F3 /* DMBrushTextureConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrushTextureConsts.m; sourceTree = "<group>"; };
+		4F79035C17C23EC2005126F3 /* DMCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCanvas.h; sourceTree = "<group>"; };
+		4F79035D17C23EC2005126F3 /* DMCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCanvas.m; sourceTree = "<group>"; };
+		4F79035F17C9F55C005126F3 /* ViewIPHONE.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewIPHONE.xib; sourceTree = "<group>"; };
 		4FDF27C917B117B50062BFDF /* BrushTestCase2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrushTestCase2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDF27CC17B117B50062BFDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4FDF27CE17B117B50062BFDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,9 +144,121 @@
 		4FDF27DE17B117B50062BFDF /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		4FDF27E017B117B50062BFDF /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		4FDF27E217B117B50062BFDF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		4FDF27E417B117B50062BFDF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		4FDF27E517B117B50062BFDF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		4FDF27E817B117B50062BFDF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		4FDF27EF17B117F20062BFDF /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		4FDF27F117B117F80062BFDF /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		4FDF27F617B118400062BFDF /* DMBlend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBlend.h; sourceTree = "<group>"; };
+		4FDF27F717B118400062BFDF /* DMBlend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBlend.m; sourceTree = "<group>"; };
+		4FDF27F817B118400062BFDF /* DMContextLock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMContextLock.h; sourceTree = "<group>"; };
+		4FDF27F917B118400062BFDF /* DMContextLock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMContextLock.m; sourceTree = "<group>"; };
+		4FDF27FA17B118400062BFDF /* DMDataTypes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMDataTypes.h; sourceTree = "<group>"; };
+		4FDF27FB17B118400062BFDF /* DMFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMFactory.h; sourceTree = "<group>"; };
+		4FDF27FC17B118400062BFDF /* DMFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMFactory.m; sourceTree = "<group>"; };
+		4FDF27FD17B118400062BFDF /* DMTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTexture.h; sourceTree = "<group>"; };
+		4FDF27FE17B118400062BFDF /* DMTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTexture.m; sourceTree = "<group>"; };
+		4FDF27FF17B118400062BFDF /* DMView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMView.h; sourceTree = "<group>"; };
+		4FDF280017B118400062BFDF /* DMView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMView.m; sourceTree = "<group>"; };
+		4FDF280317B118400062BFDF /* FileInZipInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FileInZipInfo.h; sourceTree = "<group>"; };
+		4FDF280417B118400062BFDF /* FileInZipInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FileInZipInfo.m; sourceTree = "<group>"; };
+		4FDF280517B118400062BFDF /* ZipException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipException.h; sourceTree = "<group>"; };
+		4FDF280617B118400062BFDF /* ZipException.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipException.m; sourceTree = "<group>"; };
+		4FDF280717B118400062BFDF /* ZipFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipFile.h; sourceTree = "<group>"; };
+		4FDF280817B118400062BFDF /* ZipFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipFile.m; sourceTree = "<group>"; };
+		4FDF280917B118400062BFDF /* ZipReadStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipReadStream.h; sourceTree = "<group>"; };
+		4FDF280A17B118400062BFDF /* ZipReadStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipReadStream.m; sourceTree = "<group>"; };
+		4FDF280B17B118400062BFDF /* ZipWriteStream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipWriteStream.h; sourceTree = "<group>"; };
+		4FDF280C17B118400062BFDF /* ZipWriteStream.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipWriteStream.m; sourceTree = "<group>"; };
+		4FDF280D17B118400062BFDF /* stb_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = stb_image.h; sourceTree = "<group>"; };
+		4FDF280E17B118400062BFDF /* stb_image.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = stb_image.mm; sourceTree = "<group>"; };
+		4FDF281017B118400062BFDF /* DMBlend+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DMBlend+Extra.h"; sourceTree = "<group>"; };
+		4FDF281117B118400062BFDF /* DMBlend+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DMBlend+Extra.m"; sourceTree = "<group>"; };
+		4FDF281217B118400062BFDF /* DMTexture+Extra.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DMTexture+Extra.h"; sourceTree = "<group>"; };
+		4FDF281317B118400062BFDF /* DMTexture+Extra.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "DMTexture+Extra.m"; sourceTree = "<group>"; };
+		4FDF281417B118400062BFDF /* DMGraphics-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "DMGraphics-Prefix.pch"; sourceTree = "<group>"; };
+		4FDF281517B118400062BFDF /* DMGraphics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMGraphics.h; sourceTree = "<group>"; };
+		4FDF281617B118400062BFDF /* DMGraphics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMGraphics.m; sourceTree = "<group>"; };
+		4FDF281817B118400062BFDF /* DMBrush.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBrush.h; sourceTree = "<group>"; };
+		4FDF281917B118400062BFDF /* DMBrush.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrush.m; sourceTree = "<group>"; };
+		4FDF281A17B118400062BFDF /* DMBrushSpray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBrushSpray.h; sourceTree = "<group>"; };
+		4FDF281B17B118400062BFDF /* DMBrushSpray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrushSpray.m; sourceTree = "<group>"; };
+		4FDF281C17B118400062BFDF /* DMBrushTouche.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBrushTouche.h; sourceTree = "<group>"; };
+		4FDF281D17B118400062BFDF /* DMBrushTouche.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrushTouche.m; sourceTree = "<group>"; };
+		4FDF281E17B118400062BFDF /* DMProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMProcessor.h; sourceTree = "<group>"; };
+		4FDF281F17B118400062BFDF /* DMProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMProcessor.m; sourceTree = "<group>"; };
+		4FDF282217B118400062BFDF /* Add.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Add.fsh; sourceTree = "<group>"; };
+		4FDF282317B118400062BFDF /* AddDisk.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AddDisk.fsh; sourceTree = "<group>"; };
+		4FDF282417B118400062BFDF /* Color.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Color.fsh; sourceTree = "<group>"; };
+		4FDF282517B118400062BFDF /* ColorBalance.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ColorBalance.fsh; sourceTree = "<group>"; };
+		4FDF282617B118400062BFDF /* ColorBurn.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ColorBurn.fsh; sourceTree = "<group>"; };
+		4FDF282717B118400062BFDF /* ColorDodge.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ColorDodge.fsh; sourceTree = "<group>"; };
+		4FDF282817B118400062BFDF /* Copy.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Copy.fsh; sourceTree = "<group>"; };
+		4FDF282917B118400062BFDF /* Darken.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Darken.fsh; sourceTree = "<group>"; };
+		4FDF282A17B118400062BFDF /* Difference.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Difference.fsh; sourceTree = "<group>"; };
+		4FDF282B17B118400062BFDF /* Dissolve.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Dissolve.fsh; sourceTree = "<group>"; };
+		4FDF282C17B118400062BFDF /* Divide.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Divide.fsh; sourceTree = "<group>"; };
+		4FDF282D17B118400062BFDF /* Exclusion.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Exclusion.fsh; sourceTree = "<group>"; };
+		4FDF282E17B118400062BFDF /* Hardlight.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Hardlight.fsh; sourceTree = "<group>"; };
+		4FDF282F17B118400062BFDF /* Hue.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Hue.fsh; sourceTree = "<group>"; };
+		4FDF283017B118400062BFDF /* Lighten.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Lighten.fsh; sourceTree = "<group>"; };
+		4FDF283117B118400062BFDF /* Multiply.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Multiply.fsh; sourceTree = "<group>"; };
+		4FDF283217B118400062BFDF /* Normal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Normal.fsh; sourceTree = "<group>"; };
+		4FDF283317B118400062BFDF /* NormalColor.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = NormalColor.fsh; sourceTree = "<group>"; };
+		4FDF283417B118400062BFDF /* Overlay.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Overlay.fsh; sourceTree = "<group>"; };
+		4FDF283517B118400062BFDF /* PMANormal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PMANormal.fsh; sourceTree = "<group>"; };
+		4FDF283617B118400062BFDF /* Saturation.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Saturation.fsh; sourceTree = "<group>"; };
+		4FDF283717B118400062BFDF /* Screen.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Screen.fsh; sourceTree = "<group>"; };
+		4FDF283817B118400062BFDF /* Set.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Set.fsh; sourceTree = "<group>"; };
+		4FDF283917B118400062BFDF /* Sharpen.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Sharpen.fsh; sourceTree = "<group>"; };
+		4FDF283A17B118400062BFDF /* Softlight.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Softlight.fsh; sourceTree = "<group>"; };
+		4FDF283B17B118400062BFDF /* Subtract.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Subtract.fsh; sourceTree = "<group>"; };
+		4FDF283C17B118400062BFDF /* Blur.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Blur.fsh; sourceTree = "<group>"; };
+		4FDF283D17B118400062BFDF /* BlurHorizontal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = BlurHorizontal.fsh; sourceTree = "<group>"; };
+		4FDF283E17B118400062BFDF /* BlurVertical.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = BlurVertical.fsh; sourceTree = "<group>"; };
+		4FDF283F17B118400062BFDF /* ChromaKey.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ChromaKey.fsh; sourceTree = "<group>"; };
+		4FDF284017B118400062BFDF /* DepthWrite.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = DepthWrite.fsh; sourceTree = "<group>"; };
+		4FDF284117B118400062BFDF /* FastBlurHorizontal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = FastBlurHorizontal.fsh; sourceTree = "<group>"; };
+		4FDF284217B118400062BFDF /* FastBlurVertical.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = FastBlurVertical.fsh; sourceTree = "<group>"; };
+		4FDF284317B118400062BFDF /* Ink.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Ink.fsh; sourceTree = "<group>"; };
+		4FDF284417B118400062BFDF /* Marker.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Marker.fsh; sourceTree = "<group>"; };
+		4FDF284517B118400062BFDF /* MarkerDisc.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = MarkerDisc.fsh; sourceTree = "<group>"; };
+		4FDF284617B118400062BFDF /* Mask.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Mask.fsh; sourceTree = "<group>"; };
+		4FDF284717B118400062BFDF /* OilPaint.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = OilPaint.fsh; sourceTree = "<group>"; };
+		4FDF284817B118400062BFDF /* QuadAA.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = QuadAA.fsh; sourceTree = "<group>"; };
+		4FDF284917B118400062BFDF /* QuadCamera.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = QuadCamera.vsh; sourceTree = "<group>"; };
+		4FDF284A17B118400062BFDF /* QuadShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = QuadShader.vsh; sourceTree = "<group>"; };
+		4FDF284B17B118400062BFDF /* RibbonShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = RibbonShader.vsh; sourceTree = "<group>"; };
+		4FDF284C17B118400062BFDF /* SourceQuadShader.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SourceQuadShader.vsh; sourceTree = "<group>"; };
+		4FDF284D17B118400062BFDF /* Spray.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Spray.fsh; sourceTree = "<group>"; };
+		4FDF284E17B118400062BFDF /* SwitchRGB.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = SwitchRGB.fsh; sourceTree = "<group>"; };
+		4FDF285017B118400062BFDF /* Semaphore.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Semaphore.h; sourceTree = "<group>"; };
+		4FDF285117B118400062BFDF /* Semaphore.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Semaphore.m; sourceTree = "<group>"; };
+		4FDF285317B118400062BFDF /* ZipFileHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZipFileHelper.h; sourceTree = "<group>"; };
+		4FDF285417B118400062BFDF /* ZipFileHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZipFileHelper.m; sourceTree = "<group>"; };
+		4FDF289617B118640062BFDF /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		4FDF289817B118890062BFDF /* Dropico.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Dropico.framework; sourceTree = "<group>"; };
+		4FDF289A17B1192A0062BFDF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		4FDF289C17B1193B0062BFDF /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		4FDF289E17B119560062BFDF /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		4FDF28A017B1196E0062BFDF /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		4FDF28A217B119C60062BFDF /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		4FDF28A417B119E90062BFDF /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		4FDF28A617B11A030062BFDF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		4FDF28A817B11B340062BFDF /* DMBrushView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMBrushView.h; sourceTree = "<group>"; };
+		4FDF28A917B11B340062BFDF /* DMBrushView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMBrushView.m; sourceTree = "<group>"; };
+		4FDF28D317B24FD00062BFDF /* Gradient.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Gradient.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4FDF28D517B253300062BFDF /* DMBrushGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBrushGradient.h; sourceTree = "<group>"; };
+		4FDF28D617B253300062BFDF /* DMBrushGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrushGradient.m; sourceTree = "<group>"; };
+		4FDF28D817B2797E0062BFDF /* DMBrushTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBrushTexture.h; sourceTree = "<group>"; };
+		4FDF28D917B2797E0062BFDF /* DMBrushTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrushTexture.m; sourceTree = "<group>"; };
+		4FDF28DB17B281530062BFDF /* Texture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Texture.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4FDF28DF17B288620062BFDF /* shalom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = shalom.jpg; sourceTree = "<group>"; };
+		4FDF28E117B28D320062BFDF /* shalom.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = shalom.ppng; sourceTree = "<group>"; };
+		4FDF28E317B28F3A0062BFDF /* Hair.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = Hair.ppng; sourceTree = "<group>"; };
+		4FDF28E517B292950062BFDF /* Skin.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = Skin.ppng; sourceTree = "<group>"; };
+		4FDF28E717B7A4070062BFDF /* test4ofer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test4ofer.jpg; sourceTree = "<group>"; };
+		4FDF28EB17B910490062BFDF /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		4FDF28ED17B91C680062BFDF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4FDF28EE17B91C6A0062BFDF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4FDF28F017BA4E8F0062BFDF /* Seamless.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Seamless.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,8 +267,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				4FDF27CD17B117B50062BFDF /* UIKit.framework in Frameworks */,
+				4F79035617C0D678005126F3 /* CoreImage.framework in Frameworks */,
+				4F79035417BD069E005126F3 /* ImageIO.framework in Frameworks */,
+				4FDF28A717B11A030062BFDF /* CFNetwork.framework in Frameworks */,
+				4FDF28A517B119E90062BFDF /* CoreLocation.framework in Frameworks */,
+				4FDF28A317B119C60062BFDF /* CoreVideo.framework in Frameworks */,
+				4FDF28A117B1196E0062BFDF /* AssetsLibrary.framework in Frameworks */,
+				4FDF289F17B119560062BFDF /* SystemConfiguration.framework in Frameworks */,
+				4FDF289D17B1193B0062BFDF /* Security.framework in Frameworks */,
+				4FDF289B17B1192A0062BFDF /* QuartzCore.framework in Frameworks */,
+				4FDF289717B118640062BFDF /* libz.dylib in Frameworks */,
+				4FDF27F217B117F80062BFDF /* GLKit.framework in Frameworks */,
+				4FDF27F017B117F20062BFDF /* OpenGLES.framework in Frameworks */,
 				4FDF27CF17B117B50062BFDF /* Foundation.framework in Frameworks */,
 				4FDF27D117B117B50062BFDF /* CoreGraphics.framework in Frameworks */,
+				4FDF289917B118890062BFDF /* Dropico.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +291,8 @@
 		4FDF27C017B117B50062BFDF = {
 			isa = PBXGroup;
 			children = (
+				4F79035517C0D678005126F3 /* CoreImage.framework */,
+				4F79035217BD04B1005126F3 /* ImageIO.framework */,
 				4FDF27D217B117B50062BFDF /* BrushTestCase2 */,
 				4FDF27CB17B117B50062BFDF /* Frameworks */,
 				4FDF27CA17B117B50062BFDF /* Products */,
@@ -73,6 +310,17 @@
 		4FDF27CB17B117B50062BFDF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4FDF28A617B11A030062BFDF /* CFNetwork.framework */,
+				4FDF28A417B119E90062BFDF /* CoreLocation.framework */,
+				4FDF28A217B119C60062BFDF /* CoreVideo.framework */,
+				4FDF28A017B1196E0062BFDF /* AssetsLibrary.framework */,
+				4FDF289E17B119560062BFDF /* SystemConfiguration.framework */,
+				4FDF289C17B1193B0062BFDF /* Security.framework */,
+				4FDF289A17B1192A0062BFDF /* QuartzCore.framework */,
+				4FDF289617B118640062BFDF /* libz.dylib */,
+				4FDF27F117B117F80062BFDF /* GLKit.framework */,
+				4FDF27EF17B117F20062BFDF /* OpenGLES.framework */,
+				4FDF289817B118890062BFDF /* Dropico.framework */,
 				4FDF27CC17B117B50062BFDF /* UIKit.framework */,
 				4FDF27CE17B117B50062BFDF /* Foundation.framework */,
 				4FDF27D017B117B50062BFDF /* CoreGraphics.framework */,
@@ -83,12 +331,16 @@
 		4FDF27D217B117B50062BFDF /* BrushTestCase2 */ = {
 			isa = PBXGroup;
 			children = (
+				4FDF27F317B118400062BFDF /* DMGraphicsLean */,
 				4FDF27DB17B117B50062BFDF /* AppDelegate.h */,
 				4FDF27DC17B117B50062BFDF /* AppDelegate.m */,
-				4FDF27E417B117B50062BFDF /* ViewController.h */,
-				4FDF27E517B117B50062BFDF /* ViewController.m */,
-				4FDF27E717B117B50062BFDF /* ViewController.xib */,
+				4FDF28A817B11B340062BFDF /* DMBrushView.h */,
+				4FDF28A917B11B340062BFDF /* DMBrushView.m */,
+				4FDF28EB17B910490062BFDF /* ViewController.xib */,
+				4FDF28ED17B91C680062BFDF /* ViewController.h */,
+				4FDF28EE17B91C6A0062BFDF /* ViewController.m */,
 				4FDF27D317B117B50062BFDF /* Supporting Files */,
+				4F79035F17C9F55C005126F3 /* ViewIPHONE.xib */,
 			);
 			path = BrushTestCase2;
 			sourceTree = "<group>";
@@ -96,6 +348,15 @@
 		4FDF27D317B117B50062BFDF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				4F79034E17BBE370005126F3 /* test2.ppng */,
+				4F79034A17BBCC42005126F3 /* test.ppng */,
+				4F79034817BBC728005126F3 /* trex.ppng */,
+				4FDF28F017BA4E8F0062BFDF /* Seamless.jpg */,
+				4FDF28E717B7A4070062BFDF /* test4ofer.jpg */,
+				4FDF28E517B292950062BFDF /* Skin.ppng */,
+				4FDF28E317B28F3A0062BFDF /* Hair.ppng */,
+				4FDF28E117B28D320062BFDF /* shalom.ppng */,
+				4FDF28DF17B288620062BFDF /* shalom.jpg */,
 				4FDF27D417B117B50062BFDF /* BrushTestCase2-Info.plist */,
 				4FDF27D517B117B50062BFDF /* InfoPlist.strings */,
 				4FDF27D817B117B50062BFDF /* main.m */,
@@ -107,6 +368,194 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		4FDF27F317B118400062BFDF /* DMGraphicsLean */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF27F417B118400062BFDF /* DMGraphics */,
+			);
+			name = DMGraphicsLean;
+			path = ../../GFXLab/DMGraphicsLean;
+			sourceTree = "<group>";
+		};
+		4FDF27F417B118400062BFDF /* DMGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF27F517B118400062BFDF /* Core */,
+				4FDF281417B118400062BFDF /* DMGraphics-Prefix.pch */,
+				4FDF281517B118400062BFDF /* DMGraphics.h */,
+				4FDF281617B118400062BFDF /* DMGraphics.m */,
+				4FDF281717B118400062BFDF /* Interface */,
+				4FDF282017B118400062BFDF /* Shaders */,
+				4FDF284F17B118400062BFDF /* Utils */,
+			);
+			path = DMGraphics;
+			sourceTree = "<group>";
+		};
+		4FDF27F517B118400062BFDF /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF27F617B118400062BFDF /* DMBlend.h */,
+				4FDF27F717B118400062BFDF /* DMBlend.m */,
+				4FDF27F817B118400062BFDF /* DMContextLock.h */,
+				4FDF27F917B118400062BFDF /* DMContextLock.m */,
+				4FDF27FA17B118400062BFDF /* DMDataTypes.h */,
+				4FDF27FB17B118400062BFDF /* DMFactory.h */,
+				4FDF27FC17B118400062BFDF /* DMFactory.m */,
+				4FDF27FD17B118400062BFDF /* DMTexture.h */,
+				4FDF27FE17B118400062BFDF /* DMTexture.m */,
+				4FDF27FF17B118400062BFDF /* DMView.h */,
+				4FDF280017B118400062BFDF /* DMView.m */,
+				4FDF280117B118400062BFDF /* Externals */,
+				4FDF280F17B118400062BFDF /* Extras */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		4FDF280117B118400062BFDF /* Externals */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF280217B118400062BFDF /* Objective-Zip */,
+				4FDF280D17B118400062BFDF /* stb_image.h */,
+				4FDF280E17B118400062BFDF /* stb_image.mm */,
+			);
+			path = Externals;
+			sourceTree = "<group>";
+		};
+		4FDF280217B118400062BFDF /* Objective-Zip */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF280317B118400062BFDF /* FileInZipInfo.h */,
+				4FDF280417B118400062BFDF /* FileInZipInfo.m */,
+				4FDF280517B118400062BFDF /* ZipException.h */,
+				4FDF280617B118400062BFDF /* ZipException.m */,
+				4FDF280717B118400062BFDF /* ZipFile.h */,
+				4FDF280817B118400062BFDF /* ZipFile.m */,
+				4FDF280917B118400062BFDF /* ZipReadStream.h */,
+				4FDF280A17B118400062BFDF /* ZipReadStream.m */,
+				4FDF280B17B118400062BFDF /* ZipWriteStream.h */,
+				4FDF280C17B118400062BFDF /* ZipWriteStream.m */,
+			);
+			path = "Objective-Zip";
+			sourceTree = "<group>";
+		};
+		4FDF280F17B118400062BFDF /* Extras */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF281017B118400062BFDF /* DMBlend+Extra.h */,
+				4FDF281117B118400062BFDF /* DMBlend+Extra.m */,
+				4FDF281217B118400062BFDF /* DMTexture+Extra.h */,
+				4FDF281317B118400062BFDF /* DMTexture+Extra.m */,
+			);
+			path = Extras;
+			sourceTree = "<group>";
+		};
+		4FDF281717B118400062BFDF /* Interface */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF281817B118400062BFDF /* DMBrush.h */,
+				4FDF281917B118400062BFDF /* DMBrush.m */,
+				4FDF281A17B118400062BFDF /* DMBrushSpray.h */,
+				4FDF281B17B118400062BFDF /* DMBrushSpray.m */,
+				4FDF281C17B118400062BFDF /* DMBrushTouche.h */,
+				4FDF281D17B118400062BFDF /* DMBrushTouche.m */,
+				4FDF281E17B118400062BFDF /* DMProcessor.h */,
+				4FDF281F17B118400062BFDF /* DMProcessor.m */,
+				4FDF28D517B253300062BFDF /* DMBrushGradient.h */,
+				4FDF28D617B253300062BFDF /* DMBrushGradient.m */,
+				4FDF28D817B2797E0062BFDF /* DMBrushTexture.h */,
+				4FDF28D917B2797E0062BFDF /* DMBrushTexture.m */,
+				4F79035717C0F68B005126F3 /* DMBrushTextureConsts.h */,
+				4F79035A17C23595005126F3 /* DMBrushTextureConsts.m */,
+				4F79035C17C23EC2005126F3 /* DMCanvas.h */,
+				4F79035D17C23EC2005126F3 /* DMCanvas.m */,
+			);
+			path = Interface;
+			sourceTree = "<group>";
+		};
+		4FDF282017B118400062BFDF /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF282117B118400062BFDF /* Blends */,
+				4FDF283C17B118400062BFDF /* Blur.fsh */,
+				4FDF283D17B118400062BFDF /* BlurHorizontal.fsh */,
+				4FDF283E17B118400062BFDF /* BlurVertical.fsh */,
+				4FDF283F17B118400062BFDF /* ChromaKey.fsh */,
+				4FDF284017B118400062BFDF /* DepthWrite.fsh */,
+				4FDF284117B118400062BFDF /* FastBlurHorizontal.fsh */,
+				4FDF284217B118400062BFDF /* FastBlurVertical.fsh */,
+				4FDF284317B118400062BFDF /* Ink.fsh */,
+				4FDF284417B118400062BFDF /* Marker.fsh */,
+				4FDF284517B118400062BFDF /* MarkerDisc.fsh */,
+				4FDF284617B118400062BFDF /* Mask.fsh */,
+				4FDF284717B118400062BFDF /* OilPaint.fsh */,
+				4FDF284817B118400062BFDF /* QuadAA.fsh */,
+				4FDF284917B118400062BFDF /* QuadCamera.vsh */,
+				4FDF284A17B118400062BFDF /* QuadShader.vsh */,
+				4FDF284B17B118400062BFDF /* RibbonShader.vsh */,
+				4FDF284C17B118400062BFDF /* SourceQuadShader.vsh */,
+				4FDF284D17B118400062BFDF /* Spray.fsh */,
+				4FDF284E17B118400062BFDF /* SwitchRGB.fsh */,
+				4FDF28D317B24FD00062BFDF /* Gradient.fsh */,
+				4FDF28DB17B281530062BFDF /* Texture.fsh */,
+				4F79035817C20FD4005126F3 /* TexturePMA.fsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		4FDF282117B118400062BFDF /* Blends */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF282217B118400062BFDF /* Add.fsh */,
+				4FDF282317B118400062BFDF /* AddDisk.fsh */,
+				4FDF282417B118400062BFDF /* Color.fsh */,
+				4FDF282517B118400062BFDF /* ColorBalance.fsh */,
+				4FDF282617B118400062BFDF /* ColorBurn.fsh */,
+				4FDF282717B118400062BFDF /* ColorDodge.fsh */,
+				4FDF282817B118400062BFDF /* Copy.fsh */,
+				4FDF282917B118400062BFDF /* Darken.fsh */,
+				4FDF282A17B118400062BFDF /* Difference.fsh */,
+				4FDF282B17B118400062BFDF /* Dissolve.fsh */,
+				4FDF282C17B118400062BFDF /* Divide.fsh */,
+				4FDF282D17B118400062BFDF /* Exclusion.fsh */,
+				4FDF282E17B118400062BFDF /* Hardlight.fsh */,
+				4FDF282F17B118400062BFDF /* Hue.fsh */,
+				4FDF283017B118400062BFDF /* Lighten.fsh */,
+				4FDF283117B118400062BFDF /* Multiply.fsh */,
+				4FDF283217B118400062BFDF /* Normal.fsh */,
+				4FDF283317B118400062BFDF /* NormalColor.fsh */,
+				4FDF283417B118400062BFDF /* Overlay.fsh */,
+				4FDF283517B118400062BFDF /* PMANormal.fsh */,
+				4FDF283617B118400062BFDF /* Saturation.fsh */,
+				4FDF283717B118400062BFDF /* Screen.fsh */,
+				4FDF283817B118400062BFDF /* Set.fsh */,
+				4FDF283917B118400062BFDF /* Sharpen.fsh */,
+				4FDF283A17B118400062BFDF /* Softlight.fsh */,
+				4FDF283B17B118400062BFDF /* Subtract.fsh */,
+				4F79034C17BBDE61005126F3 /* Outline.fsh */,
+				4F79035017BBE49A005126F3 /* Reveal.fsh */,
+			);
+			path = Blends;
+			sourceTree = "<group>";
+		};
+		4FDF284F17B118400062BFDF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF285017B118400062BFDF /* Semaphore.h */,
+				4FDF285117B118400062BFDF /* Semaphore.m */,
+				4FDF285217B118400062BFDF /* ZipHelper */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		4FDF285217B118400062BFDF /* ZipHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4FDF285317B118400062BFDF /* ZipFileHelper.h */,
+				4FDF285417B118400062BFDF /* ZipFileHelper.m */,
+			);
+			path = ZipHelper;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -115,8 +564,8 @@
 			buildConfigurationList = 4FDF27EC17B117B50062BFDF /* Build configuration list for PBXNativeTarget "BrushTestCase2" */;
 			buildPhases = (
 				4FDF27C517B117B50062BFDF /* Sources */,
-				4FDF27C617B117B50062BFDF /* Frameworks */,
 				4FDF27C717B117B50062BFDF /* Resources */,
+				4FDF27C617B117B50062BFDF /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -158,11 +607,70 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDF28D417B24FD00062BFDF /* Gradient.fsh in Resources */,
+				4F79035917C20FD4005126F3 /* TexturePMA.fsh in Resources */,
+				4F79035117BBE49A005126F3 /* Reveal.fsh in Resources */,
 				4FDF27D717B117B50062BFDF /* InfoPlist.strings in Resources */,
 				4FDF27DF17B117B50062BFDF /* Default.png in Resources */,
 				4FDF27E117B117B50062BFDF /* Default@2x.png in Resources */,
+				4FDF286717B118400062BFDF /* Add.fsh in Resources */,
+				4FDF286817B118400062BFDF /* AddDisk.fsh in Resources */,
+				4FDF286917B118400062BFDF /* Color.fsh in Resources */,
+				4FDF286A17B118400062BFDF /* ColorBalance.fsh in Resources */,
+				4FDF286B17B118400062BFDF /* ColorBurn.fsh in Resources */,
+				4FDF286C17B118400062BFDF /* ColorDodge.fsh in Resources */,
+				4FDF286D17B118400062BFDF /* Copy.fsh in Resources */,
+				4FDF286E17B118400062BFDF /* Darken.fsh in Resources */,
+				4FDF286F17B118400062BFDF /* Difference.fsh in Resources */,
+				4FDF287017B118400062BFDF /* Dissolve.fsh in Resources */,
+				4FDF287117B118400062BFDF /* Divide.fsh in Resources */,
+				4FDF287217B118400062BFDF /* Exclusion.fsh in Resources */,
+				4FDF287317B118400062BFDF /* Hardlight.fsh in Resources */,
+				4FDF287417B118400062BFDF /* Hue.fsh in Resources */,
+				4FDF287517B118400062BFDF /* Lighten.fsh in Resources */,
+				4FDF287617B118400062BFDF /* Multiply.fsh in Resources */,
+				4FDF287717B118400062BFDF /* Normal.fsh in Resources */,
+				4FDF287817B118400062BFDF /* NormalColor.fsh in Resources */,
+				4FDF287917B118400062BFDF /* Overlay.fsh in Resources */,
+				4FDF287A17B118400062BFDF /* PMANormal.fsh in Resources */,
+				4FDF287B17B118400062BFDF /* Saturation.fsh in Resources */,
+				4FDF287C17B118400062BFDF /* Screen.fsh in Resources */,
+				4FDF287D17B118400062BFDF /* Set.fsh in Resources */,
+				4F79034D17BBDE61005126F3 /* Outline.fsh in Resources */,
+				4FDF287E17B118400062BFDF /* Sharpen.fsh in Resources */,
+				4FDF287F17B118400062BFDF /* Softlight.fsh in Resources */,
+				4FDF288017B118400062BFDF /* Subtract.fsh in Resources */,
+				4FDF288117B118400062BFDF /* Blur.fsh in Resources */,
+				4FDF288217B118400062BFDF /* BlurHorizontal.fsh in Resources */,
+				4FDF288317B118400062BFDF /* BlurVertical.fsh in Resources */,
+				4FDF288417B118400062BFDF /* ChromaKey.fsh in Resources */,
+				4FDF288517B118400062BFDF /* DepthWrite.fsh in Resources */,
+				4FDF288617B118400062BFDF /* FastBlurHorizontal.fsh in Resources */,
+				4FDF288717B118400062BFDF /* FastBlurVertical.fsh in Resources */,
+				4FDF288817B118400062BFDF /* Ink.fsh in Resources */,
+				4FDF288917B118400062BFDF /* Marker.fsh in Resources */,
+				4FDF288A17B118400062BFDF /* MarkerDisc.fsh in Resources */,
+				4FDF288B17B118400062BFDF /* Mask.fsh in Resources */,
+				4FDF288C17B118400062BFDF /* OilPaint.fsh in Resources */,
+				4FDF288D17B118400062BFDF /* QuadAA.fsh in Resources */,
+				4FDF288E17B118400062BFDF /* QuadCamera.vsh in Resources */,
+				4FDF288F17B118400062BFDF /* QuadShader.vsh in Resources */,
+				4FDF289017B118400062BFDF /* RibbonShader.vsh in Resources */,
+				4FDF289117B118400062BFDF /* SourceQuadShader.vsh in Resources */,
+				4FDF289217B118400062BFDF /* Spray.fsh in Resources */,
+				4FDF28DC17B281530062BFDF /* Texture.fsh in Resources */,
+				4FDF289317B118400062BFDF /* SwitchRGB.fsh in Resources */,
 				4FDF27E317B117B50062BFDF /* Default-568h@2x.png in Resources */,
-				4FDF27E917B117B50062BFDF /* ViewController.xib in Resources */,
+				4FDF28E017B288620062BFDF /* shalom.jpg in Resources */,
+				4FDF28E217B28D320062BFDF /* shalom.ppng in Resources */,
+				4FDF28E417B28F3A0062BFDF /* Hair.ppng in Resources */,
+				4FDF28E617B292950062BFDF /* Skin.ppng in Resources */,
+				4FDF28E817B7A4070062BFDF /* test4ofer.jpg in Resources */,
+				4FDF28EC17B910540062BFDF /* ViewController.xib in Resources */,
+				4FDF28F117BA4E8F0062BFDF /* Seamless.jpg in Resources */,
+				4F79034917BBC728005126F3 /* trex.ppng in Resources */,
+				4F79034B17BBCC42005126F3 /* test.ppng in Resources */,
+				4F79034F17BBE370005126F3 /* test2.ppng in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -173,9 +681,34 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FDF28AA17B11C530062BFDF /* DMBrushView.m in Sources */,
 				4FDF27D917B117B50062BFDF /* main.m in Sources */,
 				4FDF27DD17B117B50062BFDF /* AppDelegate.m in Sources */,
-				4FDF27E617B117B50062BFDF /* ViewController.m in Sources */,
+				4FDF285517B118400062BFDF /* DMBlend.m in Sources */,
+				4FDF285617B118400062BFDF /* DMContextLock.m in Sources */,
+				4FDF285717B118400062BFDF /* DMFactory.m in Sources */,
+				4FDF285817B118400062BFDF /* DMTexture.m in Sources */,
+				4FDF285917B118400062BFDF /* DMView.m in Sources */,
+				4FDF285A17B118400062BFDF /* FileInZipInfo.m in Sources */,
+				4FDF285B17B118400062BFDF /* ZipException.m in Sources */,
+				4FDF285C17B118400062BFDF /* ZipFile.m in Sources */,
+				4FDF285D17B118400062BFDF /* ZipReadStream.m in Sources */,
+				4FDF285E17B118400062BFDF /* ZipWriteStream.m in Sources */,
+				4FDF285F17B118400062BFDF /* stb_image.mm in Sources */,
+				4FDF286017B118400062BFDF /* DMBlend+Extra.m in Sources */,
+				4FDF286117B118400062BFDF /* DMTexture+Extra.m in Sources */,
+				4FDF286217B118400062BFDF /* DMGraphics.m in Sources */,
+				4FDF286317B118400062BFDF /* DMBrush.m in Sources */,
+				4FDF286417B118400062BFDF /* DMBrushSpray.m in Sources */,
+				4FDF286517B118400062BFDF /* DMBrushTouche.m in Sources */,
+				4FDF286617B118400062BFDF /* DMProcessor.m in Sources */,
+				4FDF289417B118400062BFDF /* Semaphore.m in Sources */,
+				4FDF289517B118400062BFDF /* ZipFileHelper.m in Sources */,
+				4FDF28D717B253310062BFDF /* DMBrushGradient.m in Sources */,
+				4FDF28DA17B2797F0062BFDF /* DMBrushTexture.m in Sources */,
+				4FDF28EF17B91C6B0062BFDF /* ViewController.m in Sources */,
+				4F79035B17C23596005126F3 /* DMBrushTextureConsts.m in Sources */,
+				4F79035E17C23EC2005126F3 /* DMCanvas.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +721,6 @@
 				4FDF27D617B117B50062BFDF /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		4FDF27E717B117B50062BFDF /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				4FDF27E817B117B50062BFDF /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -226,7 +751,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -251,7 +776,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = 2;
@@ -262,10 +787,16 @@
 		4FDF27ED17B117B50062BFDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BrushTestCase2/BrushTestCase2-Prefix.pch";
 				INFOPLIST_FILE = "BrushTestCase2/BrushTestCase2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -273,10 +804,16 @@
 		4FDF27EE17B117B50062BFDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BrushTestCase2/BrushTestCase2-Prefix.pch";
 				INFOPLIST_FILE = "BrushTestCase2/BrushTestCase2-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -300,6 +837,7 @@
 				4FDF27EE17B117B50062BFDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
