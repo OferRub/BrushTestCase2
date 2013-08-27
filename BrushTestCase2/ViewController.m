@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "DMBrushTexture.h"
+#import "DMBrushInkTexture.h"
+#import "DMProcessor.h"
 
 #define GENERAL_SPACING 100
 #define GENERAL_ANGLE   101
@@ -39,6 +41,8 @@
 
 @interface ViewController ()
 {
+    unsigned int gradient;
+    DMColor color, currentColor, secondColor;
     DMBrushTextureGeneral general;
     DMBrushTextureScattering scattering;
     DMBrushTextureDynamics dynamics;
@@ -52,10 +56,52 @@
 
 @implementation ViewController
 
+#pragma mark – Picker Datasource:
+- (NSInteger)numberOfComponentsInPickerView:(UIPickerView *)pickerView
+{
+    return 1;
+}
+- (NSInteger)pickerView:(UIPickerView *)pickerView numberOfRowsInComponent:(NSInteger)component
+{
+    return pickerContent.count;
+}
+#pragma mark – Picker Delegate:
+- (NSString *)pickerView:(UIPickerView *)pickerView titleForRow:(NSInteger)row forComponent:(NSInteger)component
+{
+    return [pickerContent objectAtIndex:row];
+}
+
+- (void)pickerView:(UIPickerView *)pickerView didSelectRow:(NSInteger)row inComponent:(NSInteger)component
+{
+    switch (row) {
+        case 0:
+            brushView.brushController.blendMode = DMBlendModeNormal;
+            break;
+        case 1:
+            brushView.brushController.blendMode = DMBlendModeScreen;
+            break;
+        case 2:
+            brushView.brushController.blendMode = DMBlendModeMultiply;
+            break;
+        case 3:
+            brushView.brushController.blendMode = DMBlendModeAdd;
+            break;
+        default:
+            break;
+    }
+    [brushView resumeDraw];
+}
+
+/*- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
+{
+    return (interfaceOrientation != UIInterfaceOrientationPortraitUpsideDown);
+}*/
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
+        gradient = 0;
         isElementLive = NO;
         general = initDMBrushTextureGeneral();
         scattering = initDMBrushTextureScattering();
@@ -70,10 +116,34 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    pickerContent = [[NSArray alloc] initWithObjects:
+                     @"Normal", @"Screen",
+                     @"Multiply", @"Add", nil];
+
+    blendModePicker.delegate1 = self;
+    [colorPickerView setDelegate:self];
 	// Do any additional setup after loading the view.
 //    [brushView loadStencil:@"test2.ppng"];
 }
 
+- (void)controllerTouch
+{
+    [brushView stopDraw];
+}
+
+-(void)NPColorPickerView:(NPColorPickerView *)view didSelectColor:(UIColor *)color1
+{
+    float a = 1.0;
+    [color1 getRed:&color.red green:&color.green blue:&color.blue alpha:&a];
+    [self setColor:color];
+    ColorDisplay.backgroundColor = [[UIColor alloc] initWithRed:color.red green:color.green blue:color.blue alpha:1.0];
+}
+
+- (IBAction)borderSwitchChange:(UISwitch *)blendModeSwitch
+{
+    brushView.brushController.border = blendModeSwitch.on;
+}
 
 - (IBAction)generalSwitchChange:(UISwitch *)blendModeSwitch
 {
@@ -88,6 +158,84 @@
     [brush setGeneral: general];
     [brush getPreview:brushPreview];
     
+}
+
+- (IBAction)sizeSliderChange:(UISlider *)slider
+{
+    float val = slider.value;
+    [brushView.brushController  setSize:CGSizeMake(46.0*(val+0.5), 46.0*(val+0.5))];
+}
+
+-(void)setColor:(DMColor)color1
+{
+    float chroma = [DMProcessor RGBToChroma:color1];
+    float hue = [DMProcessor RGBToHue:color1];
+    float luma = [DMProcessor RGBToLuma601:color1];
+    if (gradient==0)
+    {
+        [brushView.brushController setColor: color1];
+        currentColor = color1;
+    }
+    else if (gradient==1)
+    {
+        currentColor = color1;
+//        luma =  MIN((luma+0.5)/2., luma);
+//        DMColor targetColor = [DMProcessor CHLToRGBwithChroma:chroma andHue:hue andLuma:luma+0.1];
+        DMColor targetColor = DMMakeColor(2.0, 2.0, 2.0);
+        targetColor.red += color1.red;
+        targetColor.green += color1.green;
+        targetColor.blue += color1.blue;
+        targetColor.red/=3.0;
+        targetColor.green/=3.0;
+        targetColor.blue/=3.0;
+        [brushView.brushController setColor: color1 target: targetColor];
+    }
+    else if (gradient==2)
+    {
+        currentColor = color1;
+        //        luma =  MIN((luma+0.5)/2., luma);
+        hue+=1.;
+        hue = hue-floor(hue/6.0)*6.0;
+        DMColor targetColor = [DMProcessor CHLToRGBwithChroma:chroma andHue:hue andMinLuma:luma];
+        [brushView.brushController setColor: color1 target: targetColor];
+    }
+    else if (gradient==3)
+    {
+        secondColor = color1;
+        //        luma =  MIN((luma+0.5)/2., luma);
+        hue-=1.;
+        hue = hue+6.0-floor((hue+6.0)/6.0)*6.0;
+        DMColor targetColor = [DMProcessor CHLToRGBwithChroma:chroma andHue:hue andMinLuma:luma];
+        hue+=2.;
+        hue = hue-floor(hue/6.0)*6.0;
+        color1 = [DMProcessor CHLToRGBwithChroma:chroma andHue:hue andMinLuma:luma];
+
+        [brushView.brushController setColor: targetColor target: secondColor];
+        [brushView.brushController setColorThird: color1];
+    }
+}
+- (IBAction)redSliderChange:(UISlider *)slider
+{
+    float val = slider.value;
+    color.red = val;
+    [self setColor:color];
+    ColorDisplay.backgroundColor = [[UIColor alloc] initWithRed:color.red green:color.green blue:color.blue alpha:1.0];
+}
+
+- (IBAction)greenSliderChange:(UISlider *)slider
+{
+    float val = slider.value;
+    color.green = val;
+    [self setColor:color];
+    ColorDisplay.backgroundColor = [[UIColor alloc] initWithRed:color.red green:color.green blue:color.blue alpha:1.0];
+}
+
+- (IBAction)blueSliderChange:(UISlider *)slider
+{
+    float val = slider.value;
+    color.blue = val;
+    [self setColor:color];
+    ColorDisplay.backgroundColor = [[UIColor alloc] initWithRed:color.red green:color.green blue:color.blue alpha:1.0];
 }
 
 - (IBAction)GeneralSlidersChange:(UISlider *)slider
@@ -235,7 +383,7 @@
     else
     {
         DMTexture * elm = [[[DMGraphics manager] factory] loadWithImage:[brushView saveTransparent]];
-        [brushView clearStencil];
+        [brushView unloadStencil];
         [brushView clearCanvas];
         [brushView setElement:elm];
         isElementLive = YES;
@@ -248,12 +396,25 @@
      picker.allowsEditing = YES;
      picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
      
-    
+    isBrushSelect = NO;
+
      self.popover = [[UIPopoverController alloc] initWithContentViewController:picker];
      [self.popover presentPopoverFromRect:CGRectMake(100, 100, 320, 480) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionLeft animated:YES];
      
     [brushView stopDraw];
 //     [self presentModalViewController:picker animated:YES];
+}
+
+- (IBAction)selectInkTexture:(UIButton *)sender
+{
+     UIImagePickerController *picker = [[UIImagePickerController alloc] init];
+     picker.delegate = self;
+     picker.allowsEditing = YES;
+     picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
+     
+    isBrushSelect = YES;
+     self.popover = [[UIPopoverController alloc] initWithContentViewController:picker];
+     [self.popover presentPopoverFromRect:CGRectMake(100, 100, 320, 480) inView:self.view permittedArrowDirections:UIPopoverArrowDirectionAny animated:YES];
 }
 
 - (IBAction)selectPhoto:(UIButton *)sender {
@@ -279,9 +440,18 @@
 -(void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     UIImage *image=[info objectForKey:UIImagePickerControllerOriginalImage];
-    DMTexture * background = [[[DMGraphics manager] factory] loadWithImage:image isMipMap:NO isBGR:NO flipY:YES];
     [brushView resumeDraw];
-    [brushView setBackground:background];
+    if (isBrushSelect)
+    {
+        DMTexture * texture = [[[DMGraphics manager] factory] loadWithImage:image isMipMap:NO isBGR:NO repeat:YES flipY:YES];
+        [brushView setBrushType:DMBrushTypeInkTexture];
+        [((DMBrushInkTexture *)brushView.brushController) setTexture: texture];
+    }
+    else
+    {
+        DMTexture * texture = [[[DMGraphics manager] factory] loadWithImage:image isMipMap:NO isBGR:NO repeat:NO flipY:YES];
+        [brushView setBackground:texture];
+    }
     [picker dismissModalViewControllerAnimated:YES];
 }
 
@@ -420,6 +590,60 @@
 -(IBAction)touchErase:(id)sender
 {
     [brushView clearCanvas];
+}
+
+-(IBAction)touchInk:(id)sender
+{
+    gradient = 0;
+    [brushView setBrushType:DMBrushTypeInk];
+}
+
+-(IBAction)touchInkGradient:(id)sender
+{
+    gradient = 1;
+    [brushView setBrushType:DMBrushTypeGradient];
+}
+
+-(IBAction)touchInkGradient2:(id)sender
+{
+    gradient = 2;
+    [brushView setBrushType:DMBrushTypeGradient];
+}
+
+-(IBAction)touchInkGradient3:(id)sender
+{
+    gradient = 3;
+    [brushView setBrushType:DMBrushTypeGradientThree];
+}
+
+-(IBAction)touchBrush1:(id)sender
+{
+    gradient = 0;
+    [brushView setBrushType:DMBrushTypeTexture];
+}
+-(IBAction)touchBrush2:(id)sender
+{
+    gradient = 0;
+    [brushView setBrushType:DMBrushTypeTexture];
+/*    [brushView loadPreset:@"a" onBrushLoadComplete:^(NSDictionary *info) {
+        generalSizeSlider.value = ([[[info valueForKey:kDMBrushTextureGeneral] valueForKey: kDMBrushTextureGeneralSize] floatValue]/46.0)-0.5;
+        [brushView.brushController getPreview:brushPreview];
+    }];*/
+}
+-(IBAction)touchBrush3:(id)sender
+{
+    gradient = 0;
+    [brushView setBrushType:DMBrushTypeTexture];
+}
+-(IBAction)touchBrush4:(id)sender
+{
+    gradient = 0;
+    [brushView setBrushType:DMBrushTypeTexture];
+}
+-(IBAction)touchBrush5:(id)sender
+{
+    gradient = 0;
+    [brushView setBrushType:DMBrushTypeTexture];
 }
 
 

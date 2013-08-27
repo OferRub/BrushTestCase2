@@ -8,11 +8,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Interface/DMBrush.m"
-         timestampString = "398874424.929836"
+         timestampString = "399292046.535189"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "431"
-         endingLineNumber = "431"
+         startingLineNumber = "441"
+         endingLineNumber = "441"
          landmarkName = "-smoothCurveSample2:maxDelta:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -34,11 +34,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Interface/DMBrush.m"
-         timestampString = "398874424.929836"
+         timestampString = "399292046.535189"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "541"
-         endingLineNumber = "541"
+         startingLineNumber = "551"
+         endingLineNumber = "551"
          landmarkName = "-drawPoints:isFirst:withSize:andPoints:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -47,11 +47,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Interface/DMBrush.m"
-         timestampString = "398874424.929836"
+         timestampString = "399292046.535189"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "528"
-         endingLineNumber = "528"
+         startingLineNumber = "538"
+         endingLineNumber = "538"
          landmarkName = "-prePointDraw:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -60,11 +60,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "BrushTestCase2/ViewController.m"
-         timestampString = "398862159.675672"
+         timestampString = "399295239.483844"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "132"
-         endingLineNumber = "132"
+         startingLineNumber = "279"
+         endingLineNumber = "279"
          landmarkName = "-GeneralSlidersChange:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -73,11 +73,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "BrushTestCase2/DMBrushView.m"
-         timestampString = "398609390.262422"
+         timestampString = "399215911.141905"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "208"
-         endingLineNumber = "208"
+         startingLineNumber = "209"
+         endingLineNumber = "209"
          landmarkName = "-renderView:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -86,11 +86,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "BrushTestCase2/DMBrushView.m"
-         timestampString = "398609390.262422"
+         timestampString = "399215911.141905"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "232"
-         endingLineNumber = "232"
+         startingLineNumber = "233"
+         endingLineNumber = "233"
          landmarkName = "-renderView:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -99,11 +99,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Interface/DMBrushTexture.m"
-         timestampString = "398609390.262422"
+         timestampString = "399134583.863184"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "287"
-         endingLineNumber = "287"
+         startingLineNumber = "289"
+         endingLineNumber = "289"
          landmarkName = "-savePreset:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -125,11 +125,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Interface/DMBrushTexture.m"
-         timestampString = "398609390.262422"
+         timestampString = "399134583.863184"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "122"
-         endingLineNumber = "122"
+         startingLineNumber = "123"
+         endingLineNumber = "123"
          landmarkName = "-loadPreset:onBrushLoadComplete:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -138,11 +138,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Interface/DMBrushTexture.m"
-         timestampString = "398609390.262422"
+         timestampString = "399134583.863184"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "126"
-         endingLineNumber = "126"
+         startingLineNumber = "127"
+         endingLineNumber = "127"
          landmarkName = "-loadPreset:onBrushLoadComplete:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -151,24 +151,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Core/DMBlend.m"
-         timestampString = "398694056.183114"
+         timestampString = "399290637.344627"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "307"
-         endingLineNumber = "307"
-         landmarkName = "-drawCircle:spriteSize:baseSize:position:isFull:"
-         landmarkType = "5">
-      </FileBreakpoint>
-      <FileBreakpoint
-         shouldBeEnabled = "Yes"
-         ignoreCount = "0"
-         continueAfterRunningActions = "No"
-         filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Core/DMBlend.m"
-         timestampString = "398874424.929836"
-         startingColumnNumber = "9223372036854775807"
-         endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "623"
-         endingLineNumber = "623"
+         startingLineNumber = "647"
+         endingLineNumber = "647"
          landmarkName = "-drawParticlesWithBackground:andTarget:radius:brushPosition:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -177,11 +164,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Interface/DMCanvas.m"
-         timestampString = "399124867.851347"
+         timestampString = "399298435.678889"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "228"
-         endingLineNumber = "228"
+         startingLineNumber = "270"
+         endingLineNumber = "270"
          landmarkName = "-mergeElement"
          landmarkType = "5">
       </FileBreakpoint>
@@ -190,11 +177,11 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "BrushTestCase2/DMBrushView.m"
-         timestampString = "399114134.254456"
+         timestampString = "399215911.141905"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "246"
-         endingLineNumber = "246"
+         startingLineNumber = "247"
+         endingLineNumber = "247"
          landmarkName = "-renderView:"
          landmarkType = "5">
       </FileBreakpoint>
@@ -203,25 +190,25 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "BrushTestCase2/DMBrushView.m"
-         timestampString = "399114164.176915"
+         timestampString = "399215911.141905"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "227"
-         endingLineNumber = "227"
+         startingLineNumber = "228"
+         endingLineNumber = "228"
          landmarkName = "-renderView:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
-         shouldBeEnabled = "Yes"
+         shouldBeEnabled = "No"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Interface/DMBrush.m"
-         timestampString = "399114425.236734"
+         filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Interface/DMCanvas.m"
+         timestampString = "399298435.678889"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "653"
-         endingLineNumber = "653"
-         landmarkName = "-drawPointList:withSize:intoTarget:withBackground:"
+         startingLineNumber = "313"
+         endingLineNumber = "313"
+         landmarkName = "-setBackground:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
@@ -229,25 +216,38 @@
          ignoreCount = "0"
          continueAfterRunningActions = "No"
          filePath = "BrushTestCase2/ViewController.m"
-         timestampString = "399125597.154795"
+         timestampString = "399295239.483844"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "282"
-         endingLineNumber = "282"
-         landmarkName = "-imagePickerController:didFinishPickingMediaWithInfo:"
+         startingLineNumber = "615"
+         endingLineNumber = "615"
+         landmarkName = "-touchInkGradient3:"
+         landmarkType = "5">
+      </FileBreakpoint>
+      <FileBreakpoint
+         shouldBeEnabled = "No"
+         ignoreCount = "0"
+         continueAfterRunningActions = "No"
+         filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Interface/DMCanvas.m"
+         timestampString = "399298435.678889"
+         startingColumnNumber = "9223372036854775807"
+         endingColumnNumber = "9223372036854775807"
+         startingLineNumber = "312"
+         endingLineNumber = "312"
+         landmarkName = "-setBackground:"
          landmarkType = "5">
       </FileBreakpoint>
       <FileBreakpoint
          shouldBeEnabled = "Yes"
          ignoreCount = "0"
          continueAfterRunningActions = "No"
-         filePath = "../GFXLab/DMGraphicsLean/DMGraphics/Interface/DMCanvas.m"
-         timestampString = "399124867.851347"
+         filePath = "BrushTestCase2/ViewController.m"
+         timestampString = "399295196.992711"
          startingColumnNumber = "9223372036854775807"
          endingColumnNumber = "9223372036854775807"
-         startingLineNumber = "271"
-         endingLineNumber = "271"
-         landmarkName = "-setBackground:"
+         startingLineNumber = "76"
+         endingLineNumber = "76"
+         landmarkName = "-pickerView:didSelectRow:inComponent:"
          landmarkType = "5">
       </FileBreakpoint>
    </FileBreakpoints>

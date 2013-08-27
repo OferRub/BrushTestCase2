@@ -7,6 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F617A4017CB8FAA0038D799 /* NPColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7E91317CB8A6B003D94D8 /* NPColorPickerView.m */; };
+		4F617A4117CB8FB00038D799 /* NPColorQuadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7E91517CB8A6B003D94D8 /* NPColorQuadView.m */; };
+		4F617A4217CB8FB40038D799 /* NPConicGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7E91717CB8A6B003D94D8 /* NPConicGradient.m */; };
+		4F617A4317CB8FB90038D799 /* NPPickerIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7E91917CB8A6B003D94D8 /* NPPickerIndicator.m */; };
+		4F617A4417CB8FBD0038D799 /* RGB-HSL.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7E91B17CB8A6B003D94D8 /* RGB-HSL.m */; };
+		4F617A4917CBA2490038D799 /* InkTexture.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4F617A4817CBA2480038D799 /* InkTexture.fsh */; };
+		4F617A4C17CBAA440038D799 /* DMBrushInkTexture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F617A4B17CBAA440038D799 /* DMBrushInkTexture.m */; };
+		4F617A4F17CCBFF90038D799 /* CustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F617A4E17CCBFF80038D799 /* CustomPicker.m */; };
+		4F617A5117CCC7E20038D799 /* GradientThreeToothPaste.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4F617A5017CCC7E20038D799 /* GradientThreeToothPaste.fsh */; };
+		4F617A5317CCCEB40038D799 /* GradientToothPaste.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4F617A5217CCCEB40038D799 /* GradientToothPaste.fsh */; };
 		4F79034917BBC728005126F3 /* trex.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4F79034817BBC728005126F3 /* trex.ppng */; };
 		4F79034B17BBCC42005126F3 /* test.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4F79034A17BBCC42005126F3 /* test.ppng */; };
 		4F79034D17BBDE61005126F3 /* Outline.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4F79034C17BBDE61005126F3 /* Outline.fsh */; };
@@ -17,6 +27,7 @@
 		4F79035917C20FD4005126F3 /* TexturePMA.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4F79035817C20FD4005126F3 /* TexturePMA.fsh */; };
 		4F79035B17C23596005126F3 /* DMBrushTextureConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F79035A17C23595005126F3 /* DMBrushTextureConsts.m */; };
 		4F79035E17C23EC2005126F3 /* DMCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F79035D17C23EC2005126F3 /* DMCanvas.m */; };
+		4FC7E91017CB684A003D94D8 /* GradientThree.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FC7E90F17CB684A003D94D8 /* GradientThree.fsh */; };
 		4FDF27CD17B117B50062BFDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF27CC17B117B50062BFDF /* UIKit.framework */; };
 		4FDF27CF17B117B50062BFDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF27CE17B117B50062BFDF /* Foundation.framework */; };
 		4FDF27D117B117B50062BFDF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF27D017B117B50062BFDF /* CoreGraphics.framework */; };
@@ -118,6 +129,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F617A4517CB901E0038D799 /* CGColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGColor+Additions.h"; sourceTree = "<group>"; };
+		4F617A4817CBA2480038D799 /* InkTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = InkTexture.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4F617A4A17CBAA430038D799 /* DMBrushInkTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBrushInkTexture.h; sourceTree = "<group>"; };
+		4F617A4B17CBAA440038D799 /* DMBrushInkTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrushInkTexture.m; sourceTree = "<group>"; };
+		4F617A4D17CCBFF80038D799 /* CustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPicker.h; sourceTree = "<group>"; };
+		4F617A4E17CCBFF80038D799 /* CustomPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPicker.m; sourceTree = "<group>"; };
+		4F617A5017CCC7E20038D799 /* GradientThreeToothPaste.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = GradientThreeToothPaste.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4F617A5217CCCEB40038D799 /* GradientToothPaste.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = GradientToothPaste.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		4F79034817BBC728005126F3 /* trex.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex.ppng; sourceTree = "<group>"; };
 		4F79034A17BBCC42005126F3 /* test.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.ppng; sourceTree = "<group>"; };
 		4F79034C17BBDE61005126F3 /* Outline.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Outline.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
@@ -131,6 +150,17 @@
 		4F79035C17C23EC2005126F3 /* DMCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCanvas.h; sourceTree = "<group>"; };
 		4F79035D17C23EC2005126F3 /* DMCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCanvas.m; sourceTree = "<group>"; };
 		4F79035F17C9F55C005126F3 /* ViewIPHONE.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewIPHONE.xib; sourceTree = "<group>"; };
+		4FC7E90F17CB684A003D94D8 /* GradientThree.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = GradientThree.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4FC7E91217CB8A6B003D94D8 /* NPColorPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPColorPickerView.h; sourceTree = "<group>"; };
+		4FC7E91317CB8A6B003D94D8 /* NPColorPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPColorPickerView.m; sourceTree = "<group>"; };
+		4FC7E91417CB8A6B003D94D8 /* NPColorQuadView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPColorQuadView.h; sourceTree = "<group>"; };
+		4FC7E91517CB8A6B003D94D8 /* NPColorQuadView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPColorQuadView.m; sourceTree = "<group>"; };
+		4FC7E91617CB8A6B003D94D8 /* NPConicGradient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPConicGradient.h; sourceTree = "<group>"; };
+		4FC7E91717CB8A6B003D94D8 /* NPConicGradient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPConicGradient.m; sourceTree = "<group>"; };
+		4FC7E91817CB8A6B003D94D8 /* NPPickerIndicator.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPPickerIndicator.h; sourceTree = "<group>"; };
+		4FC7E91917CB8A6B003D94D8 /* NPPickerIndicator.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPPickerIndicator.m; sourceTree = "<group>"; };
+		4FC7E91A17CB8A6B003D94D8 /* RGB-HSL.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RGB-HSL.h"; sourceTree = "<group>"; };
+		4FC7E91B17CB8A6B003D94D8 /* RGB-HSL.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "RGB-HSL.m"; sourceTree = "<group>"; };
 		4FDF27C917B117B50062BFDF /* BrushTestCase2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrushTestCase2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FDF27CC17B117B50062BFDF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4FDF27CE17B117B50062BFDF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -184,7 +214,7 @@
 		4FDF281D17B118400062BFDF /* DMBrushTouche.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrushTouche.m; sourceTree = "<group>"; };
 		4FDF281E17B118400062BFDF /* DMProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMProcessor.h; sourceTree = "<group>"; };
 		4FDF281F17B118400062BFDF /* DMProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMProcessor.m; sourceTree = "<group>"; };
-		4FDF282217B118400062BFDF /* Add.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Add.fsh; sourceTree = "<group>"; };
+		4FDF282217B118400062BFDF /* Add.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Add.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		4FDF282317B118400062BFDF /* AddDisk.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AddDisk.fsh; sourceTree = "<group>"; };
 		4FDF282417B118400062BFDF /* Color.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Color.fsh; sourceTree = "<group>"; };
 		4FDF282517B118400062BFDF /* ColorBalance.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ColorBalance.fsh; sourceTree = "<group>"; };
@@ -288,6 +318,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FC7E91117CB8A2E003D94D8 /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				4FC7E91217CB8A6B003D94D8 /* NPColorPickerView.h */,
+				4FC7E91317CB8A6B003D94D8 /* NPColorPickerView.m */,
+				4F617A4517CB901E0038D799 /* CGColor+Additions.h */,
+				4FC7E91417CB8A6B003D94D8 /* NPColorQuadView.h */,
+				4FC7E91517CB8A6B003D94D8 /* NPColorQuadView.m */,
+				4FC7E91617CB8A6B003D94D8 /* NPConicGradient.h */,
+				4FC7E91717CB8A6B003D94D8 /* NPConicGradient.m */,
+				4FC7E91817CB8A6B003D94D8 /* NPPickerIndicator.h */,
+				4FC7E91917CB8A6B003D94D8 /* NPPickerIndicator.m */,
+				4FC7E91A17CB8A6B003D94D8 /* RGB-HSL.h */,
+				4FC7E91B17CB8A6B003D94D8 /* RGB-HSL.m */,
+			);
+			name = ColorPicker;
+			sourceTree = "<group>";
+		};
 		4FDF27C017B117B50062BFDF = {
 			isa = PBXGroup;
 			children = (
@@ -331,6 +379,7 @@
 		4FDF27D217B117B50062BFDF /* BrushTestCase2 */ = {
 			isa = PBXGroup;
 			children = (
+				4FC7E91117CB8A2E003D94D8 /* ColorPicker */,
 				4FDF27F317B118400062BFDF /* DMGraphicsLean */,
 				4FDF27DB17B117B50062BFDF /* AppDelegate.h */,
 				4FDF27DC17B117B50062BFDF /* AppDelegate.m */,
@@ -341,6 +390,8 @@
 				4FDF28EE17B91C6A0062BFDF /* ViewController.m */,
 				4FDF27D317B117B50062BFDF /* Supporting Files */,
 				4F79035F17C9F55C005126F3 /* ViewIPHONE.xib */,
+				4F617A4D17CCBFF80038D799 /* CustomPicker.h */,
+				4F617A4E17CCBFF80038D799 /* CustomPicker.m */,
 			);
 			path = BrushTestCase2;
 			sourceTree = "<group>";
@@ -468,6 +519,8 @@
 				4F79035A17C23595005126F3 /* DMBrushTextureConsts.m */,
 				4F79035C17C23EC2005126F3 /* DMCanvas.h */,
 				4F79035D17C23EC2005126F3 /* DMCanvas.m */,
+				4F617A4A17CBAA430038D799 /* DMBrushInkTexture.h */,
+				4F617A4B17CBAA440038D799 /* DMBrushInkTexture.m */,
 			);
 			path = Interface;
 			sourceTree = "<group>";
@@ -498,6 +551,10 @@
 				4FDF28D317B24FD00062BFDF /* Gradient.fsh */,
 				4FDF28DB17B281530062BFDF /* Texture.fsh */,
 				4F79035817C20FD4005126F3 /* TexturePMA.fsh */,
+				4FC7E90F17CB684A003D94D8 /* GradientThree.fsh */,
+				4F617A4817CBA2480038D799 /* InkTexture.fsh */,
+				4F617A5017CCC7E20038D799 /* GradientThreeToothPaste.fsh */,
+				4F617A5217CCCEB40038D799 /* GradientToothPaste.fsh */,
 			);
 			path = Shaders;
 			sourceTree = "<group>";
@@ -607,6 +664,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FC7E91017CB684A003D94D8 /* GradientThree.fsh in Resources */,
+				4F617A5117CCC7E20038D799 /* GradientThreeToothPaste.fsh in Resources */,
+				4F617A5317CCCEB40038D799 /* GradientToothPaste.fsh in Resources */,
 				4FDF28D417B24FD00062BFDF /* Gradient.fsh in Resources */,
 				4F79035917C20FD4005126F3 /* TexturePMA.fsh in Resources */,
 				4F79035117BBE49A005126F3 /* Reveal.fsh in Resources */,
@@ -634,6 +694,7 @@
 				4FDF287917B118400062BFDF /* Overlay.fsh in Resources */,
 				4FDF287A17B118400062BFDF /* PMANormal.fsh in Resources */,
 				4FDF287B17B118400062BFDF /* Saturation.fsh in Resources */,
+				4F617A4917CBA2490038D799 /* InkTexture.fsh in Resources */,
 				4FDF287C17B118400062BFDF /* Screen.fsh in Resources */,
 				4FDF287D17B118400062BFDF /* Set.fsh in Resources */,
 				4F79034D17BBDE61005126F3 /* Outline.fsh in Resources */,
@@ -681,6 +742,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F617A4417CB8FBD0038D799 /* RGB-HSL.m in Sources */,
+				4F617A4317CB8FB90038D799 /* NPPickerIndicator.m in Sources */,
+				4F617A4217CB8FB40038D799 /* NPConicGradient.m in Sources */,
+				4F617A4117CB8FB00038D799 /* NPColorQuadView.m in Sources */,
+				4F617A4017CB8FAA0038D799 /* NPColorPickerView.m in Sources */,
 				4FDF28AA17B11C530062BFDF /* DMBrushView.m in Sources */,
 				4FDF27D917B117B50062BFDF /* main.m in Sources */,
 				4FDF27DD17B117B50062BFDF /* AppDelegate.m in Sources */,
@@ -709,6 +775,8 @@
 				4FDF28EF17B91C6B0062BFDF /* ViewController.m in Sources */,
 				4F79035B17C23596005126F3 /* DMBrushTextureConsts.m in Sources */,
 				4F79035E17C23EC2005126F3 /* DMCanvas.m in Sources */,
+				4F617A4C17CBAA440038D799 /* DMBrushInkTexture.m in Sources */,
+				4F617A4F17CCBFF90038D799 /* CustomPicker.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
