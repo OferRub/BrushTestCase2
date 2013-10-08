@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4F0053C41803FC580081A6AB /* Fairy 2.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4F0053C31803FC580081A6AB /* Fairy 2.ppng */; };
 		4F617A4017CB8FAA0038D799 /* NPColorPickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7E91317CB8A6B003D94D8 /* NPColorPickerView.m */; };
 		4F617A4117CB8FB00038D799 /* NPColorQuadView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7E91517CB8A6B003D94D8 /* NPColorQuadView.m */; };
 		4F617A4217CB8FB40038D799 /* NPConicGradient.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FC7E91717CB8A6B003D94D8 /* NPConicGradient.m */; };
@@ -20,13 +21,14 @@
 		4F79034917BBC728005126F3 /* trex.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4F79034817BBC728005126F3 /* trex.ppng */; };
 		4F79034B17BBCC42005126F3 /* test.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4F79034A17BBCC42005126F3 /* test.ppng */; };
 		4F79034D17BBDE61005126F3 /* Outline.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4F79034C17BBDE61005126F3 /* Outline.fsh */; };
-		4F79034F17BBE370005126F3 /* test2.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4F79034E17BBE370005126F3 /* test2.ppng */; };
 		4F79035117BBE49A005126F3 /* Reveal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4F79035017BBE49A005126F3 /* Reveal.fsh */; };
 		4F79035417BD069E005126F3 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F79035217BD04B1005126F3 /* ImageIO.framework */; };
 		4F79035617C0D678005126F3 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F79035517C0D678005126F3 /* CoreImage.framework */; };
 		4F79035917C20FD4005126F3 /* TexturePMA.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4F79035817C20FD4005126F3 /* TexturePMA.fsh */; };
 		4F79035B17C23596005126F3 /* DMBrushTextureConsts.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F79035A17C23595005126F3 /* DMBrushTextureConsts.m */; };
 		4F79035E17C23EC2005126F3 /* DMCanvas.m in Sources */ = {isa = PBXBuildFile; fileRef = 4F79035D17C23EC2005126F3 /* DMCanvas.m */; };
+		4FBAD0A717FC360D00BAA187 /* MammothOutline.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4FBAD0A517FC360D00BAA187 /* MammothOutline.ppng */; };
+		4FBAD0A817FC360D00BAA187 /* MammothOverlay.ppng in Resources */ = {isa = PBXBuildFile; fileRef = 4FBAD0A617FC360D00BAA187 /* MammothOverlay.ppng */; };
 		4FC7E91017CB684A003D94D8 /* GradientThree.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 4FC7E90F17CB684A003D94D8 /* GradientThree.fsh */; };
 		4FDF27CD17B117B50062BFDF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF27CC17B117B50062BFDF /* UIKit.framework */; };
 		4FDF27CF17B117B50062BFDF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4FDF27CE17B117B50062BFDF /* Foundation.framework */; };
@@ -129,8 +131,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4F0053C31803FC580081A6AB /* Fairy 2.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Fairy 2.ppng"; sourceTree = "<group>"; };
 		4F617A4517CB901E0038D799 /* CGColor+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CGColor+Additions.h"; sourceTree = "<group>"; };
-		4F617A4817CBA2480038D799 /* InkTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = InkTexture.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4F617A4817CBA2480038D799 /* InkTexture.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = InkTexture.fsh; sourceTree = "<group>"; };
 		4F617A4A17CBAA430038D799 /* DMBrushInkTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBrushInkTexture.h; sourceTree = "<group>"; };
 		4F617A4B17CBAA440038D799 /* DMBrushInkTexture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrushInkTexture.m; sourceTree = "<group>"; };
 		4F617A4D17CCBFF80038D799 /* CustomPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPicker.h; sourceTree = "<group>"; };
@@ -140,16 +143,17 @@
 		4F79034817BBC728005126F3 /* trex.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = trex.ppng; sourceTree = "<group>"; };
 		4F79034A17BBCC42005126F3 /* test.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.ppng; sourceTree = "<group>"; };
 		4F79034C17BBDE61005126F3 /* Outline.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Outline.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
-		4F79034E17BBE370005126F3 /* test2.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = test2.ppng; sourceTree = "<group>"; };
 		4F79035017BBE49A005126F3 /* Reveal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Reveal.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		4F79035217BD04B1005126F3 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		4F79035517C0D678005126F3 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
 		4F79035717C0F68B005126F3 /* DMBrushTextureConsts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMBrushTextureConsts.h; sourceTree = "<group>"; };
-		4F79035817C20FD4005126F3 /* TexturePMA.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = TexturePMA.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4F79035817C20FD4005126F3 /* TexturePMA.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = TexturePMA.fsh; sourceTree = "<group>"; };
 		4F79035A17C23595005126F3 /* DMBrushTextureConsts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrushTextureConsts.m; sourceTree = "<group>"; };
 		4F79035C17C23EC2005126F3 /* DMCanvas.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCanvas.h; sourceTree = "<group>"; };
 		4F79035D17C23EC2005126F3 /* DMCanvas.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCanvas.m; sourceTree = "<group>"; };
 		4F79035F17C9F55C005126F3 /* ViewIPHONE.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewIPHONE.xib; sourceTree = "<group>"; };
+		4FBAD0A517FC360D00BAA187 /* MammothOutline.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = MammothOutline.ppng; sourceTree = "<group>"; };
+		4FBAD0A617FC360D00BAA187 /* MammothOverlay.ppng */ = {isa = PBXFileReference; lastKnownFileType = file; path = MammothOverlay.ppng; sourceTree = "<group>"; };
 		4FC7E90F17CB684A003D94D8 /* GradientThree.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = GradientThree.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
 		4FC7E91217CB8A6B003D94D8 /* NPColorPickerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NPColorPickerView.h; sourceTree = "<group>"; };
 		4FC7E91317CB8A6B003D94D8 /* NPColorPickerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NPColorPickerView.m; sourceTree = "<group>"; };
@@ -214,7 +218,7 @@
 		4FDF281D17B118400062BFDF /* DMBrushTouche.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrushTouche.m; sourceTree = "<group>"; };
 		4FDF281E17B118400062BFDF /* DMProcessor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMProcessor.h; sourceTree = "<group>"; };
 		4FDF281F17B118400062BFDF /* DMProcessor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMProcessor.m; sourceTree = "<group>"; };
-		4FDF282217B118400062BFDF /* Add.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Add.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4FDF282217B118400062BFDF /* Add.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Add.fsh; sourceTree = "<group>"; };
 		4FDF282317B118400062BFDF /* AddDisk.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = AddDisk.fsh; sourceTree = "<group>"; };
 		4FDF282417B118400062BFDF /* Color.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Color.fsh; sourceTree = "<group>"; };
 		4FDF282517B118400062BFDF /* ColorBalance.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = ColorBalance.fsh; sourceTree = "<group>"; };
@@ -274,7 +278,7 @@
 		4FDF28A617B11A030062BFDF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		4FDF28A817B11B340062BFDF /* DMBrushView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMBrushView.h; sourceTree = "<group>"; };
 		4FDF28A917B11B340062BFDF /* DMBrushView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMBrushView.m; sourceTree = "<group>"; };
-		4FDF28D317B24FD00062BFDF /* Gradient.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Gradient.fsh; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.glsl; };
+		4FDF28D317B24FD00062BFDF /* Gradient.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Gradient.fsh; sourceTree = "<group>"; };
 		4FDF28D517B253300062BFDF /* DMBrushGradient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBrushGradient.h; sourceTree = "<group>"; };
 		4FDF28D617B253300062BFDF /* DMBrushGradient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBrushGradient.m; sourceTree = "<group>"; };
 		4FDF28D817B2797E0062BFDF /* DMBrushTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBrushTexture.h; sourceTree = "<group>"; };
@@ -399,7 +403,6 @@
 		4FDF27D317B117B50062BFDF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				4F79034E17BBE370005126F3 /* test2.ppng */,
 				4F79034A17BBCC42005126F3 /* test.ppng */,
 				4F79034817BBC728005126F3 /* trex.ppng */,
 				4FDF28F017BA4E8F0062BFDF /* Seamless.jpg */,
@@ -415,6 +418,9 @@
 				4FDF27DE17B117B50062BFDF /* Default.png */,
 				4FDF27E017B117B50062BFDF /* Default@2x.png */,
 				4FDF27E217B117B50062BFDF /* Default-568h@2x.png */,
+				4FBAD0A517FC360D00BAA187 /* MammothOutline.ppng */,
+				4FBAD0A617FC360D00BAA187 /* MammothOverlay.ppng */,
+				4F0053C31803FC580081A6AB /* Fairy 2.ppng */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -641,6 +647,11 @@
 			attributes = {
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Ofer Rubinstein";
+				TargetAttributes = {
+					4FDF27C817B117B50062BFDF = {
+						DevelopmentTeam = 5R4SL8ZER3;
+					};
+				};
 			};
 			buildConfigurationList = 4FDF27C417B117B50062BFDF /* Build configuration list for PBXProject "BrushTestCase2" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -675,6 +686,7 @@
 				4FDF27E117B117B50062BFDF /* Default@2x.png in Resources */,
 				4FDF286717B118400062BFDF /* Add.fsh in Resources */,
 				4FDF286817B118400062BFDF /* AddDisk.fsh in Resources */,
+				4F0053C41803FC580081A6AB /* Fairy 2.ppng in Resources */,
 				4FDF286917B118400062BFDF /* Color.fsh in Resources */,
 				4FDF286A17B118400062BFDF /* ColorBalance.fsh in Resources */,
 				4FDF286B17B118400062BFDF /* ColorBurn.fsh in Resources */,
@@ -700,6 +712,7 @@
 				4F79034D17BBDE61005126F3 /* Outline.fsh in Resources */,
 				4FDF287E17B118400062BFDF /* Sharpen.fsh in Resources */,
 				4FDF287F17B118400062BFDF /* Softlight.fsh in Resources */,
+				4FBAD0A717FC360D00BAA187 /* MammothOutline.ppng in Resources */,
 				4FDF288017B118400062BFDF /* Subtract.fsh in Resources */,
 				4FDF288117B118400062BFDF /* Blur.fsh in Resources */,
 				4FDF288217B118400062BFDF /* BlurHorizontal.fsh in Resources */,
@@ -717,6 +730,7 @@
 				4FDF288E17B118400062BFDF /* QuadCamera.vsh in Resources */,
 				4FDF288F17B118400062BFDF /* QuadShader.vsh in Resources */,
 				4FDF289017B118400062BFDF /* RibbonShader.vsh in Resources */,
+				4FBAD0A817FC360D00BAA187 /* MammothOverlay.ppng in Resources */,
 				4FDF289117B118400062BFDF /* SourceQuadShader.vsh in Resources */,
 				4FDF289217B118400062BFDF /* Spray.fsh in Resources */,
 				4FDF28DC17B281530062BFDF /* Texture.fsh in Resources */,
@@ -731,7 +745,6 @@
 				4FDF28F117BA4E8F0062BFDF /* Seamless.jpg in Resources */,
 				4F79034917BBC728005126F3 /* trex.ppng in Resources */,
 				4F79034B17BBCC42005126F3 /* test.ppng in Resources */,
-				4F79034F17BBE370005126F3 /* test2.ppng in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -855,6 +868,8 @@
 		4FDF27ED17B117B50062BFDF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -864,6 +879,7 @@
 				INFOPLIST_FILE = "BrushTestCase2/BrushTestCase2-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};
@@ -872,6 +888,8 @@
 		4FDF27EE17B117B50062BFDF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"\"$(SRCROOT)\"",
@@ -881,6 +899,7 @@
 				INFOPLIST_FILE = "BrushTestCase2/BrushTestCase2-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 2;
 				WRAPPER_EXTENSION = app;
 			};

@@ -124,7 +124,8 @@
     blendModePicker.delegate1 = self;
     [colorPickerView setDelegate:self];
 	// Do any additional setup after loading the view.
-//    [brushView loadStencil:@"test2.ppng"];
+    [brushView loadStencil:@"Fairy 2.ppng"];
+//    [brushView loadOverlay:@"MammothOverlay.ppng"];
 }
 
 - (void)controllerTouch
@@ -630,6 +631,24 @@
         [brushView.brushController getPreview:brushPreview];
     }];*/
 }
+
+- (IBAction) flipStencil: (id) sender {
+    UISwitch *onoff = (UISwitch *) sender;
+    if (onoff.on)
+        [brushView loadStencil:@"MammothOutline.ppng"];
+    else
+        [brushView unloadStencil];
+}
+
+- (IBAction) flipOverlay: (id) sender {
+    UISwitch *onoff = (UISwitch *) sender;
+    if (onoff.on)
+        [brushView loadOverlay:@"MammothOverlay.ppng"];
+    else
+        [brushView unloadOverlay];
+}
+
+
 -(IBAction)touchBrush3:(id)sender
 {
     gradient = 0;
